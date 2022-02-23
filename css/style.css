@@ -75,7 +75,8 @@ body {
 }
 
 .our-services {
-  margin: 6rem auto;
+  padding: 6rem 0;
+  margin: 0 auto;
   width: 70%;
 }
 
@@ -93,7 +94,7 @@ body {
 }
 
 .why-us {
-  margin-top: 6rem;
+  padding: 6rem 0;
 }
 
 .why-us h2 {
@@ -145,4 +146,104 @@ body {
   font-size: 14px;
   line-height: 20px;
   margin: 0;
+}
+
+.testimonial {
+  padding: 6rem 0;
+  overflow-x: hidden;
+}
+
+.testimonial > h2 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.testimonial > p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.testi-item {
+  background: #f1f3ff;
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.testi-image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testi-image img {
+  background-size: cover;
+  border-radius: 50%;
+  max-width: 80px;
+}
+
+.testi-content {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.rating .bi-star-fill {
+  color: #f9cc00;
+  font-size: 16px;
+}
+
+.testi-content p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.testi-content h6 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.testimonial-swiper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.testi-nav-button {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.testi-button {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #c4c4c4;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testi-button:hover {
+  border: 1px solid #fff;
+  background: #5cb85f;
+}
+
+.testi-button:hover .bi {
+  color: #fff;
+}
+
+.testi-button .bi {
+  color: #222222;
 }
