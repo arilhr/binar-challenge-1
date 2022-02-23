@@ -57,13 +57,13 @@ body {
 .home h2 {
   font-weight: bold;
   font-size: 1.4rem;
-  line-height: 150%;
+  line-height: 1.8rem;
 }
 
 .home p {
   font-weight: 300;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 0.8rem;
+  line-height: 1.4rem;
 }
 
 .home .container-fluid div {
@@ -88,15 +88,15 @@ body {
 
 .our-services h2 {
   font-weight: bold;
-  font-size: 24px;
-  line-height: 36px;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
 }
 
 .our-services p,
 .our-services li {
   font-weight: 300;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
 }
 
 .our-services .service-item {
@@ -394,5 +394,18 @@ footer .social-media a:hover {
     font-weight: 300;
     font-size: 1rem;
     line-height: 20px;
+  }
+
+  .our-services h2 {
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+  }
+
+  .our-services p,
+  .our-services li {
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.8rem;
   }
 }
