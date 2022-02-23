@@ -92,6 +92,18 @@ body {
   line-height: 20px;
 }
 
+.our-services .service-item {
+  height: fit-content;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.our-services .service-item::before {
+  content: url(../Assets/img/checkmark-icon.png);
+}
+
 .why-us {
   padding: 6rem 0;
 }
