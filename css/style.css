@@ -5,17 +5,14 @@
 
 body {
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 
-.container,
 .container-fluid {
   padding: 0;
 }
 
 .navbar {
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding: 2% 10%;
   background: #f1f3ff;
 }
 
@@ -25,21 +22,20 @@ body {
   height: 34px;
 }
 
-.nav-link {
+.navbar .nav-item .nav-link {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   color: #000;
 }
 
-.nav-link:hover {
+.navbar .nav-item .nav-link:hover {
   font-weight: 700;
-  color: #000;
 }
 
 .cta-btn {
-  font-weight: 700;
-  color: #fff;
+  font-weight: 700 !important;
+  color: #fff !important;
   background: #5cb85f;
   border-radius: 0.1rem;
   border: none;
@@ -47,12 +43,13 @@ body {
 }
 
 .cta-btn:hover {
-  color: #fff;
   transform: scale(1.02);
 }
 
 .home {
   background: #f1f3ff;
+  padding-top: 1rem;
+  overflow-x: hidden;
 }
 
 .ps-10 {
@@ -77,6 +74,5 @@ body {
 }
 
 .home-image img {
-  min-height: 100%;
-  min-width: 100%;
+  width: 100%;
 }
