@@ -351,22 +351,22 @@ footer {
   background-color: #f1f3ff;
 }
 
-footer .container div {
-  flex: 1;
+footer .container-fluid {
+  gap: 2rem;
 }
 
 footer p {
   font-weight: 300;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 0.8rem;
+  line-height: 1.4rem;
 }
 
 footer .section-2 a {
   color: #000;
   text-decoration: none;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 20px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 1.4rem;
 }
 
 footer .section-2 a:hover {
