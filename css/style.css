@@ -30,6 +30,7 @@ body {
 
 .nav-item.cta-btn .nav-link {
   color: #fff !important;
+  font-weight: 700 !important;
 }
 
 .navbar .nav-item .nav-link {
@@ -37,10 +38,11 @@ body {
   font-weight: normal;
   font-size: 14px;
   color: #000;
+  transition: all ease-in-out 0.2s;
 }
 
 .navbar .nav-item .nav-link:hover {
-  font-weight: 700;
+  transform: scale(1.1);
 }
 
 .cta-btn {
