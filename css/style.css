@@ -10,18 +10,18 @@ body {
 }
 
 .navbar {
-  padding: 2% 0;
+  padding: 1rem 0;
   background: #f1f3ff;
 }
 
 .navbar-brand {
   background: #0d28a6;
-  width: 100px;
-  height: 34px;
+  width: 6.25rem;
+  height: 2.125rem;
 }
 
 .nav-item {
-  padding: 0.1rem 0.8rem;
+  padding: 0.1rem 0.4rem;
 }
 
 .nav-item.cta-btn .nav-link {
@@ -38,7 +38,7 @@ body {
 }
 
 .navbar .nav-item .nav-link:hover {
-  transform: scale(1.1);
+  opacity: 0.7;
 }
 
 .cta-btn {
@@ -48,10 +48,6 @@ body {
   border-radius: 0.1rem;
   border: none;
   transition: all ease-in-out 0.2s;
-}
-
-.cta-btn:hover {
-  transform: scale(1.02);
 }
 
 .home {
@@ -193,7 +189,7 @@ body {
 
 .testi-item {
   background: #f1f3ff;
-  width: 50%;
+  width: 75%;
   margin: auto;
   padding: 4rem 2rem;
   display: flex;
@@ -214,7 +210,7 @@ body {
 .testi-image img {
   background-size: cover;
   border-radius: 50%;
-  max-width: 80px;
+  max-width: 5rem;
 }
 
 .testi-content {
@@ -277,15 +273,11 @@ body {
   color: #222222;
 }
 
-.cta-banner {
-  margin: 0 auto;
+.cta-banner .container {
   padding: 4rem 2rem;
   border-radius: 8px;
   background-color: #0d28a6;
   text-align: center;
-}
-
-.cta-banner {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -334,8 +326,8 @@ body {
 
 .faq-section .title-section p {
   font-weight: 300;
-  font-size: 0.8rem;
-  line-height: 1.2rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 .faq-section .question-section {
   flex: 1;
@@ -346,8 +338,8 @@ body {
   border-radius: 3px;
   border: 1px solid rgba(0, 0, 0, 0.125);
   margin-bottom: 1rem;
-  font-size: 1rem;
-  line-height: 1.6rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 footer {
@@ -356,22 +348,22 @@ footer {
   background-color: #f1f3ff;
 }
 
-footer .container-fluid {
+footer .container {
   gap: 2rem;
 }
 
 footer p {
   font-weight: 300;
-  font-size: 0.8rem;
-  line-height: 1.4rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 footer .section-2 a {
   color: #000;
   text-decoration: none;
   font-weight: 700;
-  font-size: 0.8rem;
-  line-height: 1.4rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 footer .section-2 a:hover {
@@ -397,7 +389,7 @@ footer .social-media a:hover {
 
 @media (min-width: 992px) {
   .navbar {
-    padding: 2% 10rem;
+    padding: 1rem 10rem;
     background: #f1f3ff;
   }
 
@@ -414,13 +406,11 @@ footer .social-media a:hover {
 
 @media (min-width: 1440px) {
   .home h2 {
-    font-weight: bold;
-    font-size: 2rem;
+    font-size: 2.25rem;
     line-height: 150%;
   }
 
   .home p {
-    font-weight: 300;
     font-size: 1rem;
     line-height: 20px;
   }
@@ -433,7 +423,6 @@ footer .social-media a:hover {
 
   .our-services p,
   .our-services li {
-    font-weight: 300;
     font-size: 1rem;
     line-height: 1.8rem;
   }
